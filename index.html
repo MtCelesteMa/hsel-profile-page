@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Profile</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="scripts.js"></script>
+  </head>
+  <body>
+    <div id="main_container">
+      <div>
+        <div class="infobox">
+          <h1>My Profile</h1>
+          <img id="profile_pic" src="images/github_avatar.png" alt="My Github Avatar">
+          <p>
+            I am a student at Concordia International School Shanghai. I mainly use Python for coding.
+          </p>
+          <button id="cb_ctrl" class="stylized_button" onclick="toggle_contact_box()">Show Contact Info</button>
+          <br>
+          <div id="contact_box" style="display: none">
+            <h2>Contact Info</h2>
+            <a class="contact_link" href="https://github.com/gerry2022153" target="_blank">
+              <i class="fa fa-github-square" aria-hidden="true"></i>
+            </a>
+            <a class="contact_link" href="https://cdn3.vectorstock.com/i/1000x1000/12/82/nope-rubber-stamp-vector-11471282.jpg" target="_blank">
+              <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            </a>
+            <a class="contact_link" href="https://cdn3.vectorstock.com/i/1000x1000/12/82/nope-rubber-stamp-vector-11471282.jpg" target="_blank">
+              <i class="fa fa-reddit-square" aria-hidden="true"></i>
+            </a>
+          </div>
+          <br>
+        </div>
+        <br>
+        <div class="infobox">
+          <h2>Not Binary ♐</h2>
+          <p>
+            <a href="https://www.forbes.com/sites/quora/2016/09/27/is-the-human-brain-analog-or-digital" style="color:#FFFFFF" target="_blank">
+              Life isn't just 0s and 1s...
+            </a>
+          </p>
+        </div>
+        <br>
+        <div class="infobox">
+          <h2>Display Options</h2>
+          <button class="stylized_button" onclick="change_colsch()">Change Color Scheme</button>
+          <br><br>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
